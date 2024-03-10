@@ -1,6 +1,6 @@
 /*!
-* Start Bootstrap - Resume v7.0.6 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2023 Start Bootstrap
+* Start Bootstrap - Resume v7.0.3 (https://startbootstrap.com/theme/resume)
+* Copyright 2013-2021 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
 */
 //
@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', event => {
     if (sideNav) {
         new bootstrap.ScrollSpy(document.body, {
             target: '#sideNav',
-            rootMargin: '0px 0px -40%',
+            offset: 74,
         });
     };
 
