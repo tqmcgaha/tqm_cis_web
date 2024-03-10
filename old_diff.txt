@@ -1,0 +1,63 @@
+44c44
+<   --bs-primary-rgb: 189, 93, 56;
+---
+>   --bs-primary-rgb: 001, 031, 091;
+80c80
+<   font-family: var(--bs-body-font-family);
+---
+>   font-family: var(--bs-font-monospace);
+106c106,107
+<   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+---
+>   #font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+>   font-family: var(--bs-font-monospace);
+581c582
+<   text-transform: uppercase;
+---
+>   #text-transform: uppercase;
+11301d11301
+<   text-transform: uppercase;
+11315c11315
+<   text-transform: uppercase;
+---
+>   #text-transform: uppercase;
+11327c11327
+<   text-transform: uppercase;
+---
+>   #text-transform: uppercase;
+11330c11330
+<   outline-color: #d48a6e;
+---
+>   outline-color: #990000;
+11409a11410,11428
+> .footer-card {
+>   background: #99CCFF;
+>   padding-top: 20px;
+>   padding-bottom: 20px;
+> }
+> 
+> .class-card {
+>    background: #fff;
+>    border-radius: 5px;
+>    padding: 10px 15px 10px 10px;
+>    margin-bottom: 15px;
+>    #transition: all 300ms linear 0s;
+>    border: 2px solid #eeeeee;
+> }
+> 
+> .class-card > p {
+>   font-size: 14px;
+> }
+> 
+11417,11420c11436,11439
+<     padding-left: 3rem;
+<     padding-right: 3rem;
+<     padding-top: 5rem;
+<     padding-bottom: 5rem;
+---
+>     padding-left: 2rem;
+>     padding-right: 2rem;
+>     padding-top: 2rem;
+>     padding-bottom: 2rem;
+11422a11442
+> 
